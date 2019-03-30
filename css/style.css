@@ -1,0 +1,171 @@
+1body{
+	font-family: Arial,helvetica,sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	/*
+	font :15px/1.5 Arial,helvetica,sans-serif
+	*/
+	color: #ffffff;
+	padding: 0;
+	margin: 0;
+	/*paper backgroung*/
+	background:linear-gradient(to top left, #000066 0%, #cc3300 100%); 
+}
+/*Globle*/
+.container{
+	width:80%;
+	margin: auto;
+	overflow: hidden; 
+}/*All ul margin bydefault =0*/
+ul{
+	margin: 0;
+	padding: 0;
+}
+.button_1{
+	height: 38px;
+	background: #e8491d;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+}
+/*What we do for Education black shade*/
+.dark{
+padding: 15px;
+background: #35424a;
+border: 0;
+padding-left: 20px;
+padding-right: 20px;
+color: #ffffff;
+}
+/*header*/
+header{
+	/*upper color*/
+	background:linear-gradient(to top, #cc3300 0%, #000066 100%);
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid; 
+}
+/*home about hoby decoration*/
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+
+header li{
+	float: left;
+	display:inline;
+	padding: 0 20px 0 20px;
+}
+header #branding{
+	float: left;
+
+}
+header #branding{
+	margin: 0;
+
+}
+header nav{
+	float: right;
+	margin-top: 20px;
+}/* Riaz or open page text-color*/
+header .highlight,header .current a{
+	color: #EED90C;
+	font-weight: bold;
+}
+header a:hover{
+	color: #cccccc;
+	font-weight:bold;
+}
+
+/*Showcase*/
+#showcase{
+	min-height: 500px;
+	
+	background: url('../img/showcase.jpg') no-repeat 0 -400px;
+	text-align: center;
+	color: #ffffff; 
+}
+#showcase h1{
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+
+#showcase p{
+	font-size: 20px;
+}
+#newsletter p{
+	padding: 15px;
+	color: #ffffff;
+	background: #35424a;
+}
+#newsletter h1{
+	float: left;
+}
+#newsletter form{
+	float: right;
+	margin-top: 15px;
+}
+#newsletter input[type="email"]{
+	padding: 4px;
+	height: 25px;
+	width: :250px;
+}
+
+/*Boxes*/
+
+#boxes{
+	margin-top: 20px;
+}
+#boxes .box{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+#boxes .box img{
+	width: 90px;
+}
+/*Sidebar for About  */
+aside#sidebar{
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+/*Sidebar for services*/
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+	width: 90%;
+	padding:5px;
+}
+/*main-col for About*/
+article#main-col
+{
+	float: left;
+	width: 65%;
+}
+/*Services*/
+ul#services li{
+	list-style: none;
+	padding:20px;
+	border: #cccccc solid 1px;
+	margin-bottom: 5px;
+	background: #0000;
+}
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color:#411F6C;
+	text-align: center; 
+}
+
+/*
+
+background: linear-gradient(to top left, #000066 0%, #cc3300 100%)
+
+*/
